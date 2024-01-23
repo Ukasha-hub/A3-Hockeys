@@ -15,6 +15,10 @@
         .manrope{
             font-family: Manrope;
         }
+
+        .image-full::before{
+          @apply bg-transparent;
+        }
         
     </style>
 </head>
@@ -133,47 +137,47 @@
 
 
         <section>
-            <div class="border-y-2 border-dashed text-center">
-                <h1>Proffesional hockeys Club</h1>
-                <p>We hhhhh</p>
-            </div>
+          <div class="border-y-2 border-dashed text-center ">
+              <h1>Proffesional hockeys Club</h1>
+              <p>We hhhhh</p>
+          </div>
 
-            <div class="grid justify-center gap-5 lg:grid-rows-2 lg:grid-flow-row">
-                
-                <div class="card   lg:w-45  bg-slate-500 image-full">
-                    <figure><img src="Images/2.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                    <h2 class="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary right-56">Buy Now</button>
+          <div class="grid justify-center gap-5 lg:grid-rows-2 lg:grid-flow-row p-4">
+              
+              <div class="card   lg:w-45  bg-slate-500 image-full">
+                  <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Junior Program</h2>
+                    <p class="relative lg:top-20 text-wrap">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class=" card-title relative lg:bottom-20" >
+                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Buy Now</button>
                     </div>
-                    </div>
-                </div>
+                  </div>
+              </div>
 
-                <div class="card  lg:w-45 bg-base-100 shadow-xl image-full">
-                    <figure><img src="Images/3.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                    <h2 class="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+              <div class="card  lg:w-45 bg-base-100 shadow-xl image-full">
+                  <figure><img src="Images/3.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Junior Program</h2>
+                    <p class="relative lg:top-20 text-wrap ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class=" card-title relative lg:bottom-20" >
+                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Buy Now</button>
                     </div>
+                  </div>
+              </div>
+              
+              <div class="card w-45 h-94 lg:w-90 bg-base-100 shadow-xl image-full  lg:col-span-2 lg:grid-flow-row ">
+                  <figure><img src="Images/4.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Junior Program</h2>
+                    <p class="relative lg:top-20 text-wrap ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class=" card-title relative lg:bottom-20" >
+                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Buy Now</button>
                     </div>
-                </div>
-                
-                <div class="card w-45 h-94 lg:w-90 bg-base-100 shadow-xl image-full  lg:col-span-2 lg:grid-flow-row ">
-                    <figure><img src="Images/4.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                    <h2 class="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                  </div>
+              </div>
+          </div>
+      </section>
 
 
 
@@ -183,23 +187,30 @@
                 <p>We hhhhh</p>
             </div>
 
-            <div class="grid justify-center gap-5 lg:justify-center lg:grid-cols-2   m-15 lg:gap-x-5">
-                <div class="card lg:card-side w-96 bg-base-100 shadow-xl">
-                    <figure class="lg:relative lg:left-4"><img src="Images/5.png" alt="Shoes" /></figure>
+            <div class="grid justify-center gap-5  lg:grid-cols-2 p-4 " >
+                <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
+                    <figure class="lg:relative mt-4  lg:left-4 lg:my-4"><img src="Images/5.png" alt="Shoes" /></figure>
                     <div class="card-body">
+                      <div >
+                        <ul class="flex flex-row gap-1">
+                          <li>5.0</li>
+                          <li>20</li>
+                          <li>200</li>
+                        </ul>
+                      </div>
                       <h2 class="card-title">
                         Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                        
                       </h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div> 
-                        <div class="badge badge-outline">Products</div>
+                      <div class="card-actions justify-between">
+                        <div>Price 22</div>
+                        <div>Delivery Fee: Free</div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-96 bg-base-100 shadow-xl">
+                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
                     <figure class="lg:relative lg:left-4"><img src="Images/6.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">
@@ -214,7 +225,7 @@
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-96 bg-base-100 shadow-xl">
+                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
                     <figure class="lg:relative lg:left-4"><img src="Images/7.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">
@@ -229,7 +240,7 @@
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-96 bg-base-100 shadow-xl">
+                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
                     <figure class="lg:relative lg:left-4"><img src="Images/8.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">
@@ -244,7 +255,7 @@
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-96 bg-base-100 shadow-xl">
+                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
                     <figure class="lg:relative lg:left-4"><img src="Images/9.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">
@@ -259,7 +270,7 @@
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-96 bg-base-100 shadow-xl">
+                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
                     <figure class="lg:relative lg:left-4"><img src="Images/10.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">
@@ -286,39 +297,67 @@
 
 
             
-            <div class="border-2 border-gray-400 border-r-2 lg:flex lg:flex-row  ">
-                <div class="w-1/2 left-1/4 flex  ">
+            <div class="border-2 border-gray-400 border-r-2 lg:flex lg:flex-row gap-10 p-4 lg:mx-20">
+                <div class="h-3/4  ">
                     <img src="Images/11.png" alt="">
                 </div>
 
-               <div>
-                    <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" checked="checked" /> 
-                        <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                        </div>
-                        <div class="collapse-content"> 
-                        <p>hello</p>
-                        </div>
+                <div class="join join-vertical w-full">
+                  <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" /> 
-                        <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                        </div>
-                        <div class="collapse-content"> 
-                        <p>hello</p>
-                        </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" /> 
-                        <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                        </div>
-                        <div class="collapse-content"> 
-                        <p>hello</p>
-                        </div>
+                  </div>
+                  <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
                     </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                </div>
 
                </div>
             </div>
