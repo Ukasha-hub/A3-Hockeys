@@ -22,11 +22,62 @@
           width: 100%;
          border-radius: 20px;
         }
+        textarea{
+          background-color: rgba(19, 19, 24, 0.03);
+          border-radius: 20px;
+          width: 100%;
+          height: 500px;
+
+        }
+
+        .question{
+          width: 100%;
+        }
+
+        .search{
+          
+        }
+        @media screen and (min-width: 1024px){
+          input{
+          background-color: rgba(19, 19, 24, 0.03);
+          height: 60px;
+          width: 280px;
+         border-radius: 20px;
+        }
+
+        textarea{
+          background-color: rgba(19, 19, 24, 0.03);
+          border-radius: 20px;
+          width: 100%;
+          height: 100%;
+
+        }
+
+        .question{
+          width: 100%;
+          height: 100%;
+        }
+
+        }
+
+        @media screen and (max-width: 639px){
+          input{
+          background-color: rgba(19, 19, 24, 0.03);
+          height: 60px;
+          width: 100%;
+         border-radius: 20px;
+        }
+
+        .search{
+          display: none;
+        }
+        
+        }
         
     </style>
 </head>
 <body class="manrope">
-    <header class="mt-10">
+    <header class="mt-10 p-4">
 
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -54,7 +105,7 @@
               </ul>
             </div>
             <div class="navbar-end flex gap-6" >
-                <i class="fa-solid fa-magnifying-glass fa-xl " style=" color: #c0c0c0;"></i>
+                <i class="search fa-solid fa-magnifying-glass fa-xl " style=" color: #c0c0c0;"></i>
               <a class="btn bg-[#FF4240] text-white px-[24px] py-[15px]">Get Ticket</a>
             </div>
           </div>
@@ -97,8 +148,8 @@
                 <div class="lg:flex lg: relative lg:justify-end  lg:bottom-60 lg:right-20">
                   <div class="card w-full lg:absolute lg:z-10 lg:w-1/3   bg-black text-white" >
                     <div class="card-body">
-                      <h2 class="card-title">Card title!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <h2 class="card-title font-extrabold">Meet all the heroes from the field</h2>
+                      <p class="text-sm font-extralight">Encounter field heroes, their stories inspire, in a remarkable gathering.</p>
                      </div> 
                   </div>
                 </div>  
@@ -107,31 +158,31 @@
         </section>
         
         <section class="mt-20">
-            <div class="border-y-2 border-dashed text-center py-10">
-                <h1>Proffesional hockeys Club</h1>
-                <p>We hhhhh</p>
+            <div class="border-y-2 border-dashed text-center py-10 ">
+                <h1 class="font-extrabold text-4xl">Professional Hockeys Club</h1>
+                <p class="font-extralight mt-10" style="color: rgba(19, 19, 24, 0.60);">Championing skill, unity, our professional hockey club exemplifies excellence, thrilling fans worldwide with outstanding performances and relentless dedication to victory.</p>
             </div>
 
-            <div class="mt-10 flex flex-col gap-10 lg:flex-row ">
+            <div class="mt-10 flex flex-col gap-10 lg:flex-row lg:p-4">
                 <div class="text-center ">
-                    <div class="radial-progress" style="--value:87;" role="progressbar">87%</div>
-                    <h3>Prayer facilities</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <div class="radial-progress" style="--value:87; color: red;" role="progressbar"><span class="text-black">87%</span></div>
+                    <h3 class="mt-5 font-bold text-xl">Prayer facilities</h3>
+                    <p class="mt-3" style="color: rgba(19, 19, 24, 0.60);"> Pinnacle of skill, teamwork; our professional hockey club excels gloriously.</p>
                 </div>
                 <div class="text-center">
-                    <div class="radial-progress" style="--value:95;" role="progressbar">95%</div>
-                    <h3>Prayer facilities</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <div class="radial-progress" style="--value:95; color: #49D293;" role="progressbar"><span class="text-black">95%</span></div>
+                    <h3 class="mt-5 font-bold text-xl">Experienced Choaches</h3>
+                    <p class="mt-3" style="color: rgba(19, 19, 24, 0.60);"> Pinnacle of skill, teamwork; our professional hockey club excels gloriously.</p>
                 </div>
                 <div class="text-center">
-                    <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
-                    <h3>Prayer facilities</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <div class="radial-progress" style="--value:90;color: #FFB546;" role="progressbar"><span class="text-black">90%</span></div>
+                    <h3 class="mt-5 font-bold text-xl">Senior Players</h3>
+                    <p class="mt-3" style="color: rgba(19, 19, 24, 0.60);">Pinnacle of skill, teamwork; our professional hockey club excels gloriously.</p>
                 </div>
                 <div class="text-center">
-                    <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
-                    <h3>Prayer facilities</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <div class="radial-progress" style="--value:80; color: #4C8DF1;" role="progressbar"><span class="text-black">80%</span></div>
+                    <h3 class="mt-5 font-bold text-xl">Training Ground</h3>
+                    <p class="mt-3" style="color: rgba(19, 19, 24, 0.60);">Pinnacle of skill, teamwork; our professional hockey club excels gloriously.</p>
                 </div>
             </div>
 
@@ -139,43 +190,43 @@
 
 
 
-        <section>
-          <div class="border-y-2 border-dashed text-center ">
-              <h1>Proffesional hockeys Club</h1>
-              <p>We hhhhh</p>
-          </div>
+        <section class="mt-20">
+          <div class="border-y-2 border-dashed text-center py-10 ">
+            <h1 class="font-extrabold text-4xl">Program Sections</h1>
+            <p class="font-extralight mt-10" style="color: rgba(19, 19, 24, 0.60);">Explore diverse program sections, each tailored for unique interests and objectives, offering a comprehensive and engaging experience for everyone involved</p>
+         </div>
 
-          <div class="grid justify-center gap-5 lg:grid-rows-2 lg:grid-flow-row p-4">
+          <div class="grid justify-center gap-5 lg:grid-rows-2 lg:grid-flow-row p-4 mt-10" >
               
-              <div class="card   lg:w-45  bg-slate-500 image-full">
-                  <figure><img src="Images/2.png" alt="Shoes" /></figure>
+              <div class="card w-45 h-94   lg:w-45  bg-cover image-full" style="background: url(Images/2.png); background-size: 100% 100%; background-repeat: no-repeat; ">
+                  <figure ><img src="" alt="" /></figure>
                   <div class="card-body">
                     <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Junior Program</h2>
-                    <p class="relative lg:top-20 text-wrap">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <p class="relative lg:top-20 text-wrap">Nurturing young talents through a dynamic and enriching junior program </p>
                     <div class=" card-title relative lg:bottom-20" >
-                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Buy Now</button>
+                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Register Now</button>
                     </div>
                   </div>
               </div>
 
-              <div class="card  lg:w-45 bg-base-100 shadow-xl image-full">
-                  <figure><img src="Images/3.png" alt="Shoes" /></figure>
+              <div class="card w-45 h-94 lg:w-45 bg-base-100 shadow-xl image-full" style="background: url(Images/3.png); background-size: 100% 100%; background-repeat: no-repeat; ">
+                  <figure><img src="" alt="" /></figure>
                   <div class="card-body">
-                    <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Junior Program</h2>
-                    <p class="relative lg:top-20 text-wrap ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Teeneger Program</h2>
+                    <p class="relative lg:top-20 text-wrap ">Foster growth and skills in our empowering and dynamic teenager program. </p>
                     <div class=" card-title relative lg:bottom-20" >
-                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Buy Now</button>
+                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Register Now</button>
                     </div>
                   </div>
               </div>
               
-              <div class="card w-45 h-94 lg:w-90 bg-base-100 shadow-xl image-full  lg:col-span-2 lg:grid-flow-row ">
+              <div class="card w-45 h-94 lg:w-90 bg-base-100 shadow-xl image-full  lg:col-span-2 lg:grid-flow-row " style="background: url(Images/4.png); background-size: 100% 100%; background-repeat: no-repeat; ">
                   <figure><img src="Images/4.png" alt="Shoes" /></figure>
                   <div class="card-body">
-                    <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Junior Program</h2>
-                    <p class="relative lg:top-20 text-wrap ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <h2 class="card-title relative lg:top-20 font-extrabold lg:text-3xl">Proffessional Program</h2>
+                    <p class="relative lg:top-20 text-wrap ">Elevate expertise through our comprehensive and tailored  <br>professional development program. </p>
                     <div class=" card-title relative lg:bottom-20" >
-                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Buy Now</button>
+                      <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[200px]">Register Now</button>
                     </div>
                   </div>
               </div>
@@ -184,106 +235,141 @@
 
 
 
-        <section>
-            <div class="border-y-2 border-dashed text-center">
-                <h1>Proffesional hockeys Club</h1>
-                <p>We hhhhh</p>
-            </div>
+        <section class="mt-20">
+          <div class="border-y-2 border-dashed text-center py-10 ">
+            <h1 class="font-extrabold text-4xl">Our New Products</h1>
+            <p class="font-extralight mt-10" style="color: rgba(19, 19, 24, 0.60);">Discover innovation at its finest with our new products lineup, offering cutting-edge features, superior quality, and unparalleled user experiences</p>
+         </div>
 
-            <div class="grid justify-center gap-5  lg:grid-cols-2 p-4 " >
-                <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
+            <div class="grid justify-center gap-5  lg:grid-cols-2 p-4 mt-20"  >
+                <div class="card lg:card-side w-90 bg-base-100 " style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
                     <figure class="lg:relative mt-4  lg:left-4 lg:my-4"><img src="Images/5.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <div >
-                        <ul class="flex flex-row gap-1">
-                          <li>5.0</li>
-                          <li>20</li>
-                          <li>200</li>
+                        <ul class="flex flex-row gap-3 text-sm">
+                          <div class="flex flex-row gap-2"><li  style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-star fa-sm" style="color: #FFD43B; "></i>5.0</li></div>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-eye fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>20</li>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-regular fa-heart fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>200</li>
                         </ul>
                       </div>
-                      <h2 class="card-title">
-                        Shoes!
+                      <h2 class="card-title font-extrabold text-xl">
+                        Product
                         
                       </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60);">Discover innovation at its finest with our new products lineup</p>
                       <div class="card-actions justify-between">
-                        <div>Price 22</div>
-                        <div>Delivery Fee: Free</div>
+                        <div class="font-extrabold text-red-600">Price 22</div>
+                        <div class="font-extralight" style="color: rgba(19, 19, 24, 0.60);"><i class="fa-solid fa-cart-shopping" style="color: rgba(19, 19, 24, 0.60);"></i>   Delivery Fee: Free</div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
-                    <figure class="lg:relative lg:left-4"><img src="Images/6.png" alt="Shoes" /></figure>
+                  <div class="card lg:card-side w-90 bg-base-100 " style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
+                    <figure class="lg:relative mt-4  lg:left-4 lg:my-4"><img src="Images/6.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                      <div >
+                        <ul class="flex flex-row gap-3 text-sm">
+                          <div class="flex flex-row gap-2"><li  style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-star fa-sm" style="color: #FFD43B; "></i>5.0</li></div>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-eye fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>20</li>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-regular fa-heart fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>200</li>
+                        </ul>
+                      </div>
+                      <h2 class="card-title font-extrabold text-xl">
+                        Product
+                        
                       </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div> 
-                        <div class="badge badge-outline">Products</div>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60);">Discover innovation at its finest with our new products lineup</p>
+                      <div class="card-actions justify-between">
+                        <div class="font-extrabold text-red-600">Price 22</div>
+                        <div class="font-extralight" style="color: rgba(19, 19, 24, 0.60);"><i class="fa-solid fa-cart-shopping" style="color: rgba(19, 19, 24, 0.60);"></i>   Delivery Fee: Free</div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
-                    <figure class="lg:relative lg:left-4"><img src="Images/7.png" alt="Shoes" /></figure>
+                  <div class="card lg:card-side w-90 bg-base-100 " style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
+                    <figure class="lg:relative mt-4  lg:left-4 lg:my-4"><img src="Images/7.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                      <div >
+                        <ul class="flex flex-row gap-3 text-sm">
+                          <div class="flex flex-row gap-2"><li  style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-star fa-sm" style="color: #FFD43B; "></i>5.0</li></div>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-eye fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>20</li>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-regular fa-heart fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>200</li>
+                        </ul>
+                      </div>
+                      <h2 class="card-title font-extrabold text-xl">
+                        Product
+                        
                       </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div> 
-                        <div class="badge badge-outline">Products</div>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60);">Discover innovation at its finest with our new products lineup</p>
+                      <div class="card-actions justify-between">
+                        <div class="font-extrabold text-red-600">Price 22</div>
+                        <div class="font-extralight" style="color: rgba(19, 19, 24, 0.60);"><i class="fa-solid fa-cart-shopping" style="color: rgba(19, 19, 24, 0.60);"></i>   Delivery Fee: Free</div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
-                    <figure class="lg:relative lg:left-4"><img src="Images/8.png" alt="Shoes" /></figure>
+                  <div class="card lg:card-side w-90 bg-base-100 " style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
+                    <figure class="lg:relative mt-4  lg:left-4 lg:my-4"><img src="Images/8.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                      <div >
+                        <ul class="flex flex-row gap-3 text-sm">
+                          <div class="flex flex-row gap-2"><li  style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-star fa-sm" style="color: #FFD43B; "></i>5.0</li></div>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-eye fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>20</li>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-regular fa-heart fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>200</li>
+                        </ul>
+                      </div>
+                      <h2 class="card-title font-extrabold text-xl">
+                       Product
+                        
                       </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div> 
-                        <div class="badge badge-outline">Products</div>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60);">Discover innovation at its finest with our new products lineup</p>
+                      <div class="card-actions justify-between">
+                        <div class="font-extrabold text-red-600">Price 22</div>
+                        <div class="font-extralight" style="color: rgba(19, 19, 24, 0.60);"><i class="fa-solid fa-cart-shopping" style="color: rgba(19, 19, 24, 0.60);"></i>   Delivery Fee: Free</div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
-                    <figure class="lg:relative lg:left-4"><img src="Images/9.png" alt="Shoes" /></figure>
+                  <div class="card lg:card-side w-90 bg-base-100 " style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
+                    <figure class="lg:relative mt-4  lg:left-4 lg:my-4"><img src="Images/9.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                      <div >
+                        <ul class="flex flex-row gap-3 text-sm">
+                          <div class="flex flex-row gap-2"><li  style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-star fa-sm" style="color: #FFD43B; "></i>5.0</li></div>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-eye fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>20</li>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-regular fa-heart fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>200</li>
+                        </ul>
+                      </div>
+                      <h2 class="card-title font-extrabold text-xl">
+                        Product
+                        
                       </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div> 
-                        <div class="badge badge-outline">Products</div>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60);">Discover innovation at its finest with our new products lineup</p>
+                      <div class="card-actions justify-between">
+                        <div class="font-extrabold text-red-600">Price 22</div>
+                        <div class="font-extralight" style="color: rgba(19, 19, 24, 0.60);"><i class="fa-solid fa-cart-shopping" style="color: rgba(19, 19, 24, 0.60);"></i>   Delivery Fee: Free</div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="card lg:card-side w-90 bg-base-100 shadow-xl">
-                    <figure class="lg:relative lg:left-4"><img src="Images/10.png" alt="Shoes" /></figure>
+                  <div class="card lg:card-side w-90 bg-base-100 " style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
+                    <figure class="lg:relative mt-4  lg:left-4 lg:my-4"><img src="Images/10.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                      <div >
+                        <ul class="flex flex-row gap-3 text-sm">
+                          <div class="flex flex-row gap-2"><li  style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-star fa-sm" style="color: #FFD43B; "></i>5.0</li></div>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-solid fa-eye fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>20</li>
+                          <li style="color:rgba(19, 19, 24, 0.50);"><i class="fa-regular fa-heart fa-sm" style="color: rgba(19, 19, 24, 0.50);"></i>200</li>
+                        </ul>
+                      </div>
+                      <h2 class="card-title font-extrabold text-xl">
+                       Product
+                        
                       </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div> 
-                        <div class="badge badge-outline">Products</div>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60);">Discover innovation at its finest with our new products lineup</p>
+                      <div class="card-actions justify-between">
+                        <div class="font-extrabold text-red-600">Price 22</div>
+                        <div class="font-extralight" style="color: rgba(19, 19, 24, 0.60);"><i class="fa-solid fa-cart-shopping" style="color: rgba(19, 19, 24, 0.60);"></i>   Delivery Fee: Free</div>
                       </div>
                     </div>
                   </div>
@@ -291,73 +377,73 @@
         </section>
 
 
-        <section>
+        <section class="mt-20">
             
-            <div class="border-y-2 border-dashed text-center">
-                <h1>Proffesional hockeys Club</h1>
-                <p>We hhhhh</p>
-            </div>
+          <div class="border-y-2 border-dashed text-center py-10 ">
+            <h1 class="font-extrabold text-4xl">Clients Question</h1>
+            <p class="font-extralight mt-10" style="color: rgba(19, 19, 24, 0.60);">Addressing clients' questions with precision, our dedicated team ensures clarity and satisfaction through prompt, informative, and reliable responses</p>
+         </div>
 
 
             
-            <div class="border-2 border-gray-400 border-r-2 lg:flex lg:flex-row gap-10 p-4 lg:mx-20">
-                <div class="h-3/4  ">
-                    <img src="Images/11.png" alt="">
+            <div class=" lg:flex lg:flex-row gap-5  p-4 mx-12 lg:mx-30 mt-20 justify-center" style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
+                <div class="  " >
+                    <img class="question" src="Images/11.png" alt="">
                 </div>
 
                 <div class="join join-vertical w-full">
                   <div class="collapse collapse-arrow join-item border border-base-300">
                     <input type="radio" name="my-accordion-4" checked="checked" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
+                    <div class="collapse-title text-xl  font-extrabold">
+                      Our equipments
                     </div>
                     <div class="collapse-content"> 
-                      <p>hello</p>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60); ">Addressing clients' questions with precision, our dedicated team ensures clarity and satisfaction through prompt, informative, and reliable responses</p>
                     </div>
                   </div>
                   <div class="collapse collapse-arrow join-item border border-base-300">
                     <input type="radio" name="my-accordion-4" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
+                    <div class="collapse-title text-xl font-extrabold">
+                      Hockey  Training
                     </div>
                     <div class="collapse-content"> 
-                      <p>hello</p>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60); ">Addressing clients' questions with precision, our dedicated team ensures clarity and satisfaction through prompt, informative, and reliable responses</p>
                     </div>
                   </div>
                   <div class="collapse collapse-arrow join-item border border-base-300">
                     <input type="radio" name="my-accordion-4" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
+                    <div class="collapse-title text-xl font-extrabold">
+                      Private Lessons
                     </div>
                     <div class="collapse-content"> 
-                      <p>hello</p>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60); ">Addressing clients' questions with precision, our dedicated team ensures clarity and satisfaction through prompt, informative, and reliable responses</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow join-item border border-base-300">
+                    <input type="radio" name="my-accordion-4 " /> 
+                    <div class="collapse-title text-xl font-extrabold">
+                      Ski Tours
+                    </div>
+                    <div class="collapse-content"> 
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60); ">hello</p>
                     </div>
                   </div>
                   <div class="collapse collapse-arrow join-item border border-base-300">
                     <input type="radio" name="my-accordion-4" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
+                    <div class="collapse-title text-xl font-extrabold">
+                      Booking
                     </div>
                     <div class="collapse-content"> 
-                      <p>hello</p>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60); ">hello</p>
                     </div>
                   </div>
                   <div class="collapse collapse-arrow join-item border border-base-300">
                     <input type="radio" name="my-accordion-4" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
+                    <div class="collapse-title text-xl font-extrabold">
+                      Pricing
                     </div>
                     <div class="collapse-content"> 
-                      <p>hello</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-arrow join-item border border-base-300">
-                    <input type="radio" name="my-accordion-4" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
-                    </div>
-                    <div class="collapse-content"> 
-                      <p>hello</p>
+                      <p class="font-extralight" style="color: rgba(19, 19, 24, 0.60); ">hello</p>
                     </div>
                   </div>
                 </div>
@@ -370,101 +456,121 @@
 
 
 
-        <section>
-            <div class="border-y-2 border-dashed text-center">
-              <h1>Proffesional hockeys Club</h1>
-              <p>We hhhhh</p>
-            </div>
+        <section class=" mt-20">
+          <div class="border-y-2 border-dashed text-center py-10 px-10">
+            <h1 class="font-extrabold text-4xl">Get In Touch</h1>
+            <p class="font-extralight mt-10" style="color: rgba(19, 19, 24, 0.60);">Connect with us easily! Reach out for inquiries, assistance, or collaboration. Your satisfaction matters. Let's communicate and create together.</p>
+          </div>
+            <div class="lg:flex lg:justify-center  lg:flex-row gap-0 p-4 lg:pl-5 mx-15 lg:mx-50 mt-20">
+                <div>
+                  <div class="flex flex-col items-center gap-5 p-5 lg:p-5  " style="border-radius: 16px; border: 1px solid rgba(19, 19, 24, 0.10);">
+                    <div class="card  lg:w-80 w-[100%] bg-neutral text-neutral-content text-black" style="background: rgba(188, 237, 109, 0.10);">
+                      <div class="card-body items-start ">
+                        <img src="Images/Group 1171275317.png" alt="">
+                        <h2 class="card-title font-extralight text-sm" style="color: rgba(19, 19, 24, 0.60) ;">Phone Number</h2>
+                        <p class="font-extrabold text-lg">98776544333</p>
+                        
+                      </div>
+                    </div>
 
-            <div class="flex flex-col items-center gap-5 border-2 border-gray-200 border-solid">
-              <div class="card w-96 bg-neutral text-neutral-content text-black" style="background: rgba(188, 237, 109, 0.10);">
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Cookies!</h2>
-                  <p>We are using cookies for no reason.</p>
-                  <div class="card-actions justify-end">
+                    <div class="card  lg:w-80 w-[100%] bg-neutral text-neutral-content text-black" style="background: rgba(253, 221, 95, 0.10);">
+                      <div class="card-body items-start">
+                        <img src="Images/Group 1171275318.png" alt="">
+                        <h2 class="card-title font-extralight text-sm" style="color: rgba(19, 19, 24, 0.60) ;">Email</h2>
+                        <p class="font-extrabold text-lg">kkj@fg.com</p>
+                        
+                      </div>
+                    </div>
+
+                    <div class="card lg:w-80 w-[100%] bg-neutral text-neutral-content text-black" style="background: rgba(98, 156, 243, 0.10);">
+                      <div class="card-body items-start">
+                        <img src="Images/Group 1171275321.png" alt="">
+                        <h2 class="card-title font-extralight text-sm" style="color: rgba(19, 19, 24, 0.60) ;">Location</h2>
+                        <p class="font-extrabold text-lg">Mohakhali, Dhaka, Bangladesh</p>
+                        <div class="card-actions justify-end">
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="card w-96 bg-neutral text-neutral-content text-black" style="background: rgba(253, 221, 95, 0.10);">
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Cookies!</h2>
-                  <p>We are using cookies for no reason.</p>
-                  <div class="card-actions justify-end">
-                  </div>
-                </div>
-              </div>
-
-              <div class="card w-96 bg-neutral text-neutral-content text-black" style="background: rgba(98, 156, 243, 0.10);">
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Cookies!</h2>
-                  <p>We are using cookies for no reason.</p>
-                  <div class="card-actions justify-end">
-                  </div>
-                </div>
+              <div class="p-4  w-[100%] " >
+                <form action="" class="font-extrabold" >
+                  <div class="flex lg:flex-row flex-col lg:gap-[5%]">
+                    <div>
+                      <h1 >Name</h1>
+                      <input class="mt-2 " type="text" placeholder="Enter your Name">
+                    </div>
+                    <div >  
+                      <h1 class="mt-5 lg:mt-0 ">Your Email</h1>
+                      <input class="mt-2 " type="text" placeholder="Enter your Name">
+                    </div>
+                  </div>  
+                  <div class="flex flex-col lg:flex-row lg:gap-10">
+                    <div>
+                      <h1 class="mt-5">Subject</h1>
+                      <input class="mt-2" type="text" placeholder="Enter your Name">
+                    </div>
+                    <div>  
+                      <h1 class="mt-5">Phone Number</h1>
+                      <input class="mt-2" type="text" placeholder="Enter your Name">
+                    </div>
+                  </div>  
+                  <h1 class="mt-5">Message</h1>
+                  <textarea class="w-[100%] h-40 mt-2" type="text" placeholder="Enter your Name"></textarea>
+                </form>
+                <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[100%] mt-5">Send Messege</button>
               </div>
             </div>
-
-            <div class="p-4">
-              <form action="">
-                <h1>Name</h1>
-                <input type="text" placeholder="Enter your Name">
-                <h1>Your Email</h1>
-                <input type="text" placeholder="Enter your Name">
-                <h1>Subject</h1>
-                <input type="text" placeholder="Enter your Name">
-                <h1>Phone Number</h1>
-                <input type="text" placeholder="Enter your Name">
-                <h1>Message</h1>
-                <input class="h-40 align-text-top" type="text" placeholder="Enter your Name">
-              </form>
-              <button class="btn bg-[#FF4240] text-white px-[30px] py-[15px] w-[100%]">Buy Now</button>
-            </div>
-
-            <div class="w-[100%] rounded-lg text-center text-black" style="background-color: rgba(19, 19, 24, 0.03);">
-              <h1>Social Media</h1>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <div class=" rounded-lg text-center text-black items-center mx-8 py-10" style="background-color: rgba(19, 19, 24, 0.03);">
+              <h1 class="text-xl font-extrabold">Social Media</h1>
+              <ul class="flex justify-center gap-10 mt-5">
+                <li><i class="fa-brands fa-twitter fa-2xl"></i></li>
+                <li><i class="fa-brands fa-facebook fa-2xl"></i></li>
+                <li><i class="fa-brands fa-instagram fa-2xl"></i></li>
+                <li><i class="fa-brands fa-github fa-2xl"></i></li>
               </ul>
             </div>
 
         </section>
 
     </main>
-    <footer class="footer p-10 bg-black text-white text-base-content">
-        <aside class="lg:pl-20">
-          
-          <h1 class="text-4xl font-extrabold">Get In Touch</h1>
-          <p>ACME Industries Ltd. Providing reliable tech since 1992</p>
-          <h5>jkk@gmail.com</h5>
-          <h5>9876543455666</h5>
-          
-        </aside> 
-        <div class="grid  grid-cols-2 grid-flow-row lg:grid-cols-3 gap-20">
-          <nav class="flex flex-col gap-3">
-            <header class="footer-title">Services</header> 
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
-          </nav> 
-          <nav class="flex flex-col gap-3">
-            <header class="footer-title">Company</header> 
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-          </nav>
-        
-          <nav class="flex flex-col gap-3">
-            <header class="footer-title">Legal</header> 
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
-          </nav>
+    <footer class="footer px-[20%] py-20 lg:p-10 bg-black text-white text-base-content mt-20 flex flex-col lg:flex-row lg:gap-[30%] text-center lg:text-left">
+        <div>
+          <aside class="lg:pl-10 flex flex-col gap-5">
+            
+            <h1 class="text-4xl font-extrabold">Get In Touch</h1>
+            <p class="font-extralight font-sm" style="color: rgba(255, 255, 255, 0.60);">ACME Industries Ltd. Providing reliable tech since 1992</p>
+            <h5 class="font-extralight font-sm" style="color: rgba(255, 255, 255, 0.60);"><i class="fa-regular fa-envelope fa-sm" style="color: red;"></i> jkk@gmail.com</h5>
+            <h5 class="font-extralight font-sm" style="color: rgba(255, 255, 255, 0.60);"><i class="fa-solid fa-phone fa-sm" style="color: red;"></i> 9876543455666</h5>
+            
+            
+          </aside>
+        </div>   
+        <div class=" flex flex-col gap-20 lg:flex-row  lg:gap-20 ">
+          <div class="flex flex-row gap-[50%] lg:gap-20">
+            <nav class="flex flex-col gap-3">
+              <header class="footer-title text-white">Services</header> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav class="flex flex-col gap-3">
+              <header class="footer-title">Company</header> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav>
+          </div>
+          <div class="flex lg:flex-row row-span-2 ml-[40%] lg:ml-0">
+            <nav class="flex flex-col gap-3">
+              <header class="footer-title">Legal</header> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav>
+          </div>  
         </div>   
       </footer>
 </body>
